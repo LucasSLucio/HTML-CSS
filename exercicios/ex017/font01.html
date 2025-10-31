@@ -6,7 +6,29 @@
     <title>Fontes em CSS</title>
     <Style>
         body {
-            font-family:'Franklin Gothic Medium', 'Arial  Narrow', Arial, sans-serif;
+            font-family:Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+             cm, mm. in (polegada), px, pt(ponto tipográfico), pc(paica)
+
+             Medidas Relativas
+            em, ex, rem, Vw, vh, %
+
+            em → Relativa ao tamanho da fonte do elemento pai. 16px geralmente é = 1em. 2em = 32px
+
+            ex → Relativa à altura da letra “x” da fonte atual.
+
+            rem → Relativa ao tamanho da fonte raiz (geralmente o <html>).
+
+            vw → Relativa à largura da janela de visualização (1vw = 1% da largura da tela).
+
+            vh → Relativa à altura da janela de visualização (1vh = 1% da altura da tela).
+
+            % → Relativa a outra medida de referência (como o elemento pai).
+
+            de acordo com a w3C, a recomendação oficial é usar as medidas px e em
+             */
+             
+           font-size: 1em;  
         }
     </Style>
 </head>
